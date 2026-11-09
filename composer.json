@@ -1,0 +1,16 @@
+{
+    "name": "nguemoue/shipcheck",
+    "description": "Zero-dependency PHP CLI that blocks debug leftovers, env() outside config, interpolated SQL and live secrets before production.",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1"
+    },
+    "bin": ["shipcheck.php"],
+    "autoload": {
+        "classmap": ["src/Shipcheck.php"]
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    }
+}

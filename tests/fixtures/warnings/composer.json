@@ -1,0 +1,6 @@
+{
+    "name": "demo/warnings",
+    "require": {
+        "php": "^8.2"
+    }
+}
